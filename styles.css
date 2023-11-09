@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(235, 18%, 26%);
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight:400;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+    height: 650px;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+.first {
+    padding-left: 70px;
+    height: 80%;
+    width: 45%;
+}
+.image {
+    padding-left: 20px;
+    height: 600px;
+    width: 450px;
+}
+h1{
+    hsl(234, 29%, 20%);
+    font-size: 50px;
+}
+
+p> img {
+    display: inline;
+    padding-right: 20px;
+}
+
+.email {
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+button{
+    border-color: transparent;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: hsl(234, 29%, 20%);
+    border-radius: 10px;
+    height: 62px;
+    width: 350px;
+    cursor: pointer;
+}
+
+button:hover {
+    font-size: 17px;
+    background-color: Tomato;
+    transform: scale(1.02);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+input {
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 30px;
+    background-color: white;
+    border-radius: 10px;
+    height: 55px;
+    width: 317px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
