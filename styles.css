@@ -79,3 +79,28 @@ input {
     margin-bottom: 25px;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+    
+    .container {
+        display: flex;
+        flex-direction: column;
+        height: 850px;
+        width: 450px;
+        border-radius:0%;
+      }
+
+    .first {
+        margin-bottom: 0px;
+        width: 410px; 
+        padding-bottom: 10px;
+        margin-top: -60px;
+    }
+      
+    .image {
+        order: -1;
+        padding-left: 0px;
+        margin-bottom: 0px;
+        margin-top: -170px;
+        content: url("./illustration-sign-up-mobile.svg")
+    }
+}
