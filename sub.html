@@ -18,6 +18,8 @@
             function showAlert() {
                 alert("Message dismissed")
             }
+            var storedInput = sessionStorage.getItem('userInput');
+            document.getElementById('displayInput').innerText =  storedInput;
         </script>
     </div>
 </body>
