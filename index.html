@@ -26,6 +26,13 @@
         <div class="image">
             <img src="./illustration-sign-up-desktop.svg" alt="">
         </div>
+        <script>
+            function saveInput() {
+                var inputValue = document.getElementById('inputText').value;
+    
+                sessionStorage.setItem('userInput', inputValue);
+            }
+        </script>
     </div>
 
 </body>
