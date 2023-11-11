@@ -36,6 +36,12 @@ p {
     margin-bottom: 30px;
 }
 
+.dismiss-btn {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
 button {
     font-size: 16px;
     color: white;
